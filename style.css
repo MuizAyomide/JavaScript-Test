@@ -11,8 +11,6 @@
 }
 #image1{
     margin-top: 20px;
-    background: url(img1.jpg);
-    background-size: cover;
     border-radius: 20px;
     transition: all 1ms ease;
 }
@@ -21,6 +19,12 @@
     margin-top: 20px;
     transition: all 1ms ease;
     border-radius: 20px;
+}
+
+#image1:hover, #image2:hover{
+    width: 180px;
+    height: 190px;
+    border: 3px solid blue;
 }
 
 .imgBox{
