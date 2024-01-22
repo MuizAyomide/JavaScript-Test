@@ -1,0 +1,48 @@
+.container{
+    box-sizing: border-box;
+    border: 5px solid rgb(7, 59, 231);
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+#image1{
+    margin-top: 20px;
+    background: url(img1.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    transition: all 1ms ease;
+}
+
+#image2{
+    margin-top: 20px;
+    transition: all 1ms ease;
+    border-radius: 20px;
+}
+
+.imgBox{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    background-color: blue;
+    border: none;
+    margin: auto;
+    padding: 1.5em 2.3em 1.5em 2.3em;
+    border-radius: 5px;
+    transition: 0.2s;
+    color: white;
+    position: relative;
+    left: 145px;
+    bottom: 100px;
+}
+button:hover{
+    border: 3px solid rgb(11, 8, 146);
+}
+img{
+    width: 170px;
+    height: 180px;
+}
