@@ -3,10 +3,10 @@ var image1 = document.getElementById('image1');
 var image2 = document.getElementById('image2');
 
 var imageIndex = 0;
-var images = ["pic01.jpg", "pic02.jpg", 
-              "pic03.jpg", "pic04.jpg",
-              "pic05.jpg", "pic06.jpg", 
-              "pic07.jpg", "pic08.jpg"];
+var images = ["./images/pic01.jpg", "./images/pic02.jpg", 
+              "./images/pic03.jpg", "./images/pic04.jpg",
+              "./images/pic05.jpg", "./images/pic06.jpg", 
+              "./images/pic07.jpg", "./images/pic08.jpg"];
 
 function imageChange() {
     var secondImage = image2;
